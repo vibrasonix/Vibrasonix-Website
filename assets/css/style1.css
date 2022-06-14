@@ -40,56 +40,56 @@
 
 -------------------------------------------------------------*/
 :root, :root .v-light {
-  --bg-color: #f9f9f9;
-  --assistant-color: #e6e6e6;
-  --theme-color: #14bfb5;
-  --font-color: #0009;
-  --heading-color: #000;
-  --border-color: #bebebe;
-  --smooth-color: #141414;
-  --reverse-color: #141414;
-  --reverse-heading-color: #fff;
+  --bg-color: hsl(210, 15%, 95%);
+  --assistant-color: hsl(208, 32%, 92%);
+  --theme-color: hsl(44, 85%, 55%);
+  --font-color: hsl(227, 14%, 27%);
+  --heading-color: hsl(208, 31%, 12%);
+  --border-color: hsl(48, 69%, 20%);
+  --smooth-color: hsl(0, 0%, 71%);
+  --reverse-color: hsl(210, 15%, 95%);
+  --reverse-heading-color: #ffffff;
 }
 
 :root .v-dark, :root .v-dark-head {
-  --bg-color: #000;
-  --assistant-color: #101010;
-  --theme-color: #14bfb5;
-  --font-color: #bbb;
-  --heading-color: #fff;
+  --bg-color: hsl(210, 15%, 95%);
+  --assistant-color: hsl(0, 0%, 6%);
+  --theme-color: rgb(238, 186, 43);
+  --font-color: hsl(47, 69%, 72%);
+  --heading-color: hsl(0, 0%, 100%);
   --border-color: rgba(255, 255, 255, 0.07);
-  --smooth-color: #f9f9f9;
-  --reverse-color: #f9f9f9;
-  --reverse-heading-color: #000;
+  --smooth-color: hsl(0, 0%, 98%);
+  --reverse-color: hsl(0, 0%, 98%);
+  --reverse-heading-color: hsl(227, 14%, 27%);
 }
 
 @media only screen and (max-width: 991px) {
   .v-dark-head-mobile {
-    --bg-color: #000;
-    --assistant-color: #101010;
-    --theme-color: #14bfb5;
-    --font-color: #bbb;
-    --heading-color: #fff;
+    --bg-color: hsl(227, 14%, 27%);
+    --assistant-color: hsl(0, 0%, 6%);
+    --theme-color: hsl(44, 85%, 55%);
+    --font-color: hsl(47, 69%, 72%);
+    --heading-color: hsl(0, 0%, 100%);
     --border-color: rgba(255, 255, 255, 0.07);
-    --smooth-color: #f9f9f9;
-    --reverse-color: #f9f9f9;
-    --reverse-heading-color: #000;
+    --smooth-color: hsl(0, 0%, 98%);
+    --reverse-color: hsl(0, 0%, 98%);
+    --reverse-heading-color:hsl(227, 14%, 27%);
     color: var(--font-color);
   }
 }
 :root {
-  --body-font: "Roboto", sans-serif;
+  --body-font: "Quicksand", sans-serif;
   --heading-font: "Poppins", sans-serif;
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
   --font-pre: "Courier 10 Pitch", Courier, monospace;
-  --font-size-base: 16px;
-  --font-size-h1: 40px;
-  --font-size-h2: 35px;
-  --font-size-h3: 30px;
-  --font-size-h4: 25px;
-  --font-size-h5: 22px;
-  --font-size-h6: 16px;
-  --menu-size: 12px;
+  --font-size-base: 1.2em;
+  --font-size-h1: 2.2em;
+  --font-size-h2: 2em;
+  --font-size-h3: 1.75em;
+  --font-size-h4: 1.60em;
+  --font-size-h5: 1.45em;
+  --font-size-h6: 1.213em;
+  --menu-size: 1rem;
   --line-height-base: 1.4;
   --line-height-content: 1.6;
   --font-weight-heading: 600;
