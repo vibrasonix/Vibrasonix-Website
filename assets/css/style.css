@@ -52,7 +52,7 @@
 }
 
 :root .v-dark, :root .v-dark-head {
-  --bg-color: hsl(227, 14%, 27%);
+  --bg-color: hsl(210, 15%, 95%);
   --assistant-color: hsl(0, 0%, 6%);
   --theme-color: rgb(238, 186, 43);
   --font-color: hsl(47, 69%, 72%);
