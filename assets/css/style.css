@@ -80,7 +80,7 @@
   }
 }
 :root {
-  --body-font: "Roboto", sans-serif;
+  --body-font: "Quicksand", sans-serif;
   --heading-font: "Poppins", sans-serif;
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
   --font-pre: "Courier 10 Pitch", Courier, monospace;
@@ -111,7 +111,7 @@ html {
 body {
   line-height: var(--line-height-base);
   font-family: var(--body-font);
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   text-rendering: optimizeLegibility;
   -webkit-transition: 100ms;
@@ -1144,7 +1144,7 @@ body:not(.v-dark):not(.dsn-line-style) .site-header {
   color: var(--heading-color);
 }
 .site-header .main-logo .light-logo {
-  display: inherit;
+  display: none;
 }
 .site-header .main-logo .dark-logo {
   display: none;
@@ -1184,7 +1184,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
   }
 }
 .site-header .inner-header .main-logo {
-  width: 96px;
+  width: 0px;
   pointer-events: all;
 }
 .site-header .inner-header .main-logo img {
